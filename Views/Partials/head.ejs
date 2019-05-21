@@ -1,0 +1,147 @@
+<head>
+    <!-- views/partials/head.ejs -->
+    <meta charset="UTF-8">
+    <title>Hypertube || Welcome</title>
+    <!-- CSS (load bootstrap from a CDN) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        background-color: gray;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .logo {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 80%;
+        height: 40vh;
+        background-color: rgb(26, 38, 43);
+        border-radius: 2vmin;
+        text-align: center;
+    }
+
+    .logo h1 {
+        margin-top: 12vmin;
+        font-size: 16vmin;
+        color: blue;
+        text-shadow: 6px 6px 6px gray;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .register-form {
+        font-size: 16px;
+        left: 50%;
+        top: 50%;
+        position: absolute;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        -moz-transform: translate3d(-50%, -50%, 0);
+        transform: translate3d(-50%, -50%, 0);
+    }
+
+    .logbutton {
+        height: 50px;
+        width: 200px;
+        background-color: yellowgreen;
+        border-radius: 0px;
+        font-size: 18px;
+        color: white;
+        border: none !important;
+        border-radius: 1vmin;
+        margin-bottom: 5px;
+    }
+
+    .logbutton:hover {
+        color: white;
+        background-color: darkolivegreen;
+    }
+
+    .logbutton:active {
+        color: white;
+        background-color: darkolivegreen;
+    }
+
+    .register-form label {
+        color: aliceblue;
+    }
+
+    .register-form input {
+        margin-bottom: 5px;
+        width: 430px;
+        height: 40px;
+        border-radius: 1vmin;
+    }
+
+    .signupForm {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 50%;
+        height: 60vh;
+        background-color: rgb(26, 38, 43);
+        border-radius: 2vmin;
+    }
+
+    .signupForm img {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .sidenav {
+        height: 90%;
+        width: 12%;
+        position: fixed;
+        left: 0;
+        background-color: rgb(26, 38, 43);
+        padding-top: 20px;
+        border-top: solid wheat;
+    }
+
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2vmin;
+        color: aliceblue;
+        display: block;
+        text-decoration: none;
+    }
+
+    .sidenav a:hover {
+        color: gray;
+    }
+
+    .dropdown-menu.dropdown-primary {
+        background-color: rgb(26, 38, 43);
+    }
+
+    .dropdown-menu.dropdown-primary a:hover {
+        background-color: gray !important;
+    }
+
+    .dropdown-item {
+        color: aliceblue !important;
+    }
+</style>
